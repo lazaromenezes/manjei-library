@@ -24,7 +24,6 @@ jobs:
         run: |
           cd ./library
           HUGO_ENV="production" ../hugo
-          cd ..
 
       - name: Build and Push Image
         uses: akhileshns/heroku-deploy@v3.8.9
