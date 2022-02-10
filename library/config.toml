@@ -1,0 +1,20 @@
+baseURL = 'http://library.manjei.com.br/'
+languageCode = 'pt-br'
+title = 'manjei.com.br'
+theme = 'dream'
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+# dark mode
+defaultDark=true
+backgroundDark = "#333"
+backgroundImageDark = "/me/background.jpg"
+darkLinkColor = "darkseagreen"
+darkNav = true
+dark404 = true
+
+headerTitle = 'Manjei Library'
+author = 'Lázaro Menezes'
+
