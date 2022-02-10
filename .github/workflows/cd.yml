@@ -3,7 +3,7 @@ name: Manjei Library CD
 on:
   push:
     branches:
-      - master 
+      - main 
 
 jobs:
   build:
